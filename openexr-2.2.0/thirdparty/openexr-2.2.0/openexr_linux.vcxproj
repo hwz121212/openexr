@@ -332,7 +332,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\zlib-1.2.12\include;.;IlmImf;Imath;IexMath;Iex;Half;IlmThread;/root/projects/libzlib/include;/root/projects/libopenexr/IlmImf;/root/projects/libopenexr/Imath;/root/projects/libopenexr/IexMath;/root/projects/libopenexr/Iex;/root/projects/libopenexr/Half;/root/projects/libopenexr/IlmThread</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\zlib-1.2.12\include;.;IlmImf;Imath;IexMath;Iex;Half;IlmThread;/root/projects/zlib/include;/root/projects/openexr/IlmImf;/root/projects/openexr/Imath;/root/projects/openexr/IexMath;/root/projects/openexr/Iex;/root/projects/openexr/Half;/root/projects/openexr/IlmThread</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>
       </PreprocessorDefinitions>
       <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>
@@ -344,7 +344,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\zlib-1.2.12\include;.;IlmImf;Imath;IexMath;Iex;Half;IlmThread;/root/projects/libzlib/include;/root/projects/libopenexr/IlmImf;/root/projects/libopenexr/Imath;/root/projects/libopenexr/IexMath;/root/projects/libopenexr/Iex;/root/projects/libopenexr/Half;/root/projects/libopenexr/IlmThread</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)thirdparty\zlib-1.2.12\include;.;IlmImf;Imath;IexMath;Iex;Half;IlmThread;/root/projects/zlib/include;/root/projects/openexr/IlmImf;/root/projects/openexr/Imath;/root/projects/openexr/IexMath;/root/projects/openexr/Iex;/root/projects/openexr/Half;/root/projects/openexr/IlmThread</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>
       </PreprocessorDefinitions>
       <AdditionalOptions>-fPIC %(AdditionalOptions)</AdditionalOptions>

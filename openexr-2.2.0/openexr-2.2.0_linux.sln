@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdparty", "{EBBBC5AB-E662-45E5-BA81-FB445F6B829F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libzlib", "thirdparty\zlib-1.2.12\libzlib_linux.vcxproj", "{791642ED-9E59-4F42-927B-3562F869D9C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "thirdparty\zlib-1.2.12\zlib_linux.vcxproj", "{CE378188-FDBB-4EF5-A62D-20150CD4EEE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_lib", "0_lib", "{C7E6BBE1-2DE2-460D-9F32-A909B42FDA63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_dll", "1_dll", "{F330B403-B595-4B1F-BD57-B0D76D89C763}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libopenexr", "thirdparty\openexr-2.2.0\libopenexr_linux.vcxproj", "{CBF7CDE4-9E8C-4941-B1BE-D93BEE207330}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openexr", "thirdparty\openexr-2.2.0\openexr_linux.vcxproj", "{1715A1B4-1C14-49CD-A434-9FBA5EB17DF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{791642ED-9E59-4F42-927B-3562F869D9C1}.Debug|x64.ActiveCfg = Debug|x64
+		{791642ED-9E59-4F42-927B-3562F869D9C1}.Debug|x64.Build.0 = Debug|x64
+		{791642ED-9E59-4F42-927B-3562F869D9C1}.Release|x64.ActiveCfg = Release|x64
+		{791642ED-9E59-4F42-927B-3562F869D9C1}.Release|x64.Build.0 = Release|x64
+		{CE378188-FDBB-4EF5-A62D-20150CD4EEE3}.Debug|x64.ActiveCfg = Debug|x64
+		{CE378188-FDBB-4EF5-A62D-20150CD4EEE3}.Debug|x64.Build.0 = Debug|x64
+		{CE378188-FDBB-4EF5-A62D-20150CD4EEE3}.Release|x64.ActiveCfg = Release|x64
+		{CE378188-FDBB-4EF5-A62D-20150CD4EEE3}.Release|x64.Build.0 = Release|x64
+		{CBF7CDE4-9E8C-4941-B1BE-D93BEE207330}.Debug|x64.ActiveCfg = Debug|x64
+		{CBF7CDE4-9E8C-4941-B1BE-D93BEE207330}.Debug|x64.Build.0 = Debug|x64
+		{CBF7CDE4-9E8C-4941-B1BE-D93BEE207330}.Release|x64.ActiveCfg = Release|x64
+		{CBF7CDE4-9E8C-4941-B1BE-D93BEE207330}.Release|x64.Build.0 = Release|x64
+		{1715A1B4-1C14-49CD-A434-9FBA5EB17DF5}.Debug|x64.ActiveCfg = Debug|x64
+		{1715A1B4-1C14-49CD-A434-9FBA5EB17DF5}.Debug|x64.Build.0 = Debug|x64
+		{1715A1B4-1C14-49CD-A434-9FBA5EB17DF5}.Release|x64.ActiveCfg = Release|x64
+		{1715A1B4-1C14-49CD-A434-9FBA5EB17DF5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{791642ED-9E59-4F42-927B-3562F869D9C1} = {C7E6BBE1-2DE2-460D-9F32-A909B42FDA63}
+		{CE378188-FDBB-4EF5-A62D-20150CD4EEE3} = {F330B403-B595-4B1F-BD57-B0D76D89C763}
+		{C7E6BBE1-2DE2-460D-9F32-A909B42FDA63} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{F330B403-B595-4B1F-BD57-B0D76D89C763} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{CBF7CDE4-9E8C-4941-B1BE-D93BEE207330} = {C7E6BBE1-2DE2-460D-9F32-A909B42FDA63}
+		{1715A1B4-1C14-49CD-A434-9FBA5EB17DF5} = {F330B403-B595-4B1F-BD57-B0D76D89C763}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}
+	EndGlobalSection
+EndGlobal
